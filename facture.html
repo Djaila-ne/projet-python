@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facture</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 20px;">
+
+    <header style="text-align: center; margin-bottom: 40px;">
+        <h1 style="margin: 0;">Facture</h1>
+        <p style="margin: 0;">Date: <span id="date">01/01/2023</span></p>
+    </header>
+
+    <section style="margin-bottom: 40px;">
+        <h2 style="margin-bottom: 10px;">Informations du client</h2>
+        <p style="margin: 5px 0;">Nom: <span id="client-name">Jean Dupont</span></p>
+        <p style="margin: 5px 0;">Adresse: <span id="client-address">123 Rue Exemple, Paris</span></p>
+        <p style="margin: 5px 0;">Téléphone: <span id="client-phone">+33 6 12 34 56 78</span></p>
+    </section>
+
+    <section style="margin-bottom: 40px;">
+        <h2 style="margin-bottom: 10px;">Détails de la facture</h2>
+        <table style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th style="border: 1px solid #000; padding: 8px; text-align: left;">Description</th>
+                    <th style="border: 1px solid #000; padding: 8px; text-align: right;">Quantité</th>
+                    <th style="border: 1px solid #000; padding: 8px; text-align: right;">Prix Unitaire</th>
+                    <th style="border: 1px solid #000; padding: 8px; text-align: right;">Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid #000; padding: 8px;">Produit A</td>
+                    <td style="border: 1px solid #000; padding: 8px; text-align: right;">2</td>
+                    <td style="border: 1px solid #000; padding: 8px; text-align: right;">50€</td>
+                    <td style="border: 1px solid #000; padding: 8px; text-align: right;">100€</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #000; padding: 8px;">Produit B</td>
+                    <td style="border: 1px solid #000; padding: 8px; text-align: right;">1</td>
+                    <td style="border: 1px solid #000; padding: 8px; text-align: right;">30€</td>
+                    <td style="border: 1px solid #000; padding: 8px; text-align: right;">30€</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" style="border: 1px solid #000; padding: 8px; text-align: right; font-weight: bold;">Total</td>
+                    <td style="border: 1px solid #000; padding: 8px; text-align: right; font-weight: bold;">130€</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <footer style="text-align: center; margin-top: 40px;">
+        <p style="margin: 0;">Merci pour votre confiance !</p>
+    </footer>
+
+</body>
+</html>
